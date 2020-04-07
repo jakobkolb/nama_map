@@ -13,20 +13,12 @@ function create_markers(val, idx, array) {
       <img src="./location_icon.png" style="width:20px"> ${val['address']}
       `
   )
-<<<<<<< HEAD
   if (val['shop_url']){sidebarContent = sidebarContent.concat(
-=======
-  sidebarContent = sidebarContent.concat(
->>>>>>> d83cd8a17ba422b7d7daafd6059bc3ee8e083c6d
     `<br> <br>
     <img src="./home_icon.png" style="width:20px">  <a href="${val['shop_url']}">online shop</a>
     <br> <br>
     `)
-<<<<<<< HEAD
   }
-  
-=======
->>>>>>> d83cd8a17ba422b7d7daafd6059bc3ee8e083c6d
   sidebarContent = sidebarContent.concat(
     `<hr>
     Erreichbarkeit: <br> <br>`
